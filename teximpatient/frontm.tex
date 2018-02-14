@@ -1,3 +1,4 @@
+% -*- mode:tex; coding; utf-8-unix -*-
 % This is part of the book TeX for the Impatient.
 % Copyright (C) 2003 Paul W. Abrahams, Kathryn A. Hargreaves, Karl Berry.
 % See file fdl.tex for copying conditions.
@@ -14,7 +15,12 @@
 % Bastard title.
 % 
 % \sinkage
-\leftline{\chapterfonts \TeX\ for the Impatient}
+%%% ORIGINAL BEGIN %%%
+%\leftline{\chapterfonts \TeX\ for the Impatient}
+%%% ORIGINAL END %%%
+%%% PTBR BEGIN %%
+\leftline{\chapterfonts \TeX{} Para os Impacientes}
+%%% PTBR END %%%
 
 \noheadlinetrue\pagebreak
 
@@ -37,17 +43,32 @@
 % Dedication.
 % 
 \sinkage
+%%% ORIGINAL BEGIN %%%
+% {\it \flushright
+%    For Jodi.
+%    ---{\sc p.w.a.}
+
+%    In memory of my father,
+%    who had faith in me.
+%    ---{\sc k.a.h.}
+
+%    For Dan.
+%    ---{\sc k.b.}
+% }
+%%% ORIGINAL END %%%
+%%% PTBR BEGIN %%%
 {\it \flushright
-   For Jodi.
+   Por Jodi.
    ---{\sc p.w.a.}
    
-   In memory of my father,
-   who had faith in me.
+   Em memória de meu pai,
+   que teve fé em mim
    ---{\sc k.a.h.}
    
-   For Dan.
+   Por Dan.
    ---{\sc k.b.}
 }
+%%% PTBR END %%%
 \pagebreak
 
 % From here on, the convention is that every frontchapter does its own
@@ -65,14 +86,24 @@
 \rewritetocfilefalse
 %
 \blankpage
-\frontchapter{Brief\linebreak contents}
+%%% ORIGINAL BEGIN %%%
+%\frontchapter{Brief\linebreak contents}
+%%% ORIGINAL END %%%
+%%% PTBR BEGIN %%%
+\frontchapter{Conteúdo\linebreak Resumo}
+%%% PTBR END %%%
 
 \shortcontents
 
 
 \ifcompletebook \global\rewritetocfiletrue \fi
 
-\frontchapter{Contents}
+%%% ORIGINAL BEGIN %%%
+%\frontchapter{Contents}
+%%% ORIGINAL END %%%
+%%% PTBR BEGIN %%%
+\frontchapter{Conteúdo}
+%%% PTBR END %%%
 
 \contents
 
